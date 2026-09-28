@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+.vercel/
+
+# Build and tooling output
+dist/
+coverage/
+.turbo/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local Docker overrides
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editors and local workspace settings
+.vscode/
+.idea/
+*.swp
+*.swo

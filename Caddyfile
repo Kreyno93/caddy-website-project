@@ -1,0 +1,5 @@
+# Domain: replace coffee.example.com with your real domain
+
+coffee.example.com {
+    reverse_proxy app:3000
+}
